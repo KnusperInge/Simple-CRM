@@ -1,0 +1,27 @@
+main {
+  width: 100%;
+  padding: 16px;
+  position: relative;
+}
+.mat-progress-bar {
+  width: calc(100% + 16px);
+  position: absolute;
+  left: -16px;
+  right: -16px;
+  top: 0px;
+}
+.mat-dialog-content {
+  padding: 0;
+}
+.name-container {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  mat-form-field {
+    width: 100%;
+  }
+}
+.full-width {
+  min-width: 100% !important;
+}
